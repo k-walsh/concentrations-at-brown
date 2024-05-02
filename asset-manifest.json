@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/concentrations-at-brown/static/css/main.fb09c268.css",
+    "main.js": "/concentrations-at-brown/static/js/main.bfd415b4.js",
+    "index.html": "/concentrations-at-brown/index.html",
+    "main.fb09c268.css.map": "/concentrations-at-brown/static/css/main.fb09c268.css.map",
+    "main.bfd415b4.js.map": "/concentrations-at-brown/static/js/main.bfd415b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb09c268.css",
+    "static/js/main.bfd415b4.js"
+  ]
+}
