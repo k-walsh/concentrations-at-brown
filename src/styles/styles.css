@@ -1,0 +1,16 @@
+/* #chart1 {
+  max-width: 600px;
+} */
+
+.chart {
+  display: block;
+  max-width: 600px;
+  margin: auto;
+}
+
+#test {
+  height: 660px;
+  width: 660px;
+  margin: auto;
+  background-color: beige;
+}
