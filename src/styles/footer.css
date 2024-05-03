@@ -1,0 +1,51 @@
+.foot {
+  margin-top: 130px;
+  background-color: #e9ddd9;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  /* flex-wrap: wrap; */
+  padding-bottom: 50px;
+  padding-top: 60px;
+  padding-left: 5%;
+  padding-right: 5%;
+  /* background-color: #a1847a; */
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: calc(max(60%, 600px));
+}
+
+#sunFoot {
+  display: inline block;
+  width: 75px;
+  margin-bottom: 10px;
+}
+
+#portfolio {
+  text-align: right;
+  max-width: calc(max(20%, 100px));
+}
+
+.foot p {
+  margin: 0;
+  font-size: small;
+  /* margin-left: 10%; */
+}
+
+.dataAbout {
+  /* flex: 2; */
+  margin-bottom: 20px;
+}
+
+.foot a {
+  color: #8b6f64;
+}
+
+.foot a:hover {
+  color: #ad8f84;
+}

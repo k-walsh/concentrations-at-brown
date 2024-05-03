@@ -1,0 +1,96 @@
+.coverPage {
+  /* Full height */
+  height: 100vh;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/newscms/2021_32/3461744/210402-brown-university-ew-1211p.jpg");
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.title {
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  /* transform: translate(-50%, -50%); */
+  z-index: 1;
+  color: rgb(241, 241, 241);
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  text-shadow: 2px 2px 4px rgba(137, 137, 137, 0.5);
+  max-width: 100%;
+}
+
+.typewriter h1 {
+  overflow: hidden;
+  border-right: 0.15em solid rgb(81, 81, 81);
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.05em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  text-align: left;
+  font-size: 64px;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(164, 164, 164);
+  }
+}
+
+.title h2 {
+  max-width: 100%;
+  font-size: 36px;
+  margin-bottom: 20px;
+  opacity: 0; /* Initially hidden */
+  animation: fadeIn 3s ease-in-out forwards; /* Animation to fade in */
+  animation-delay: 2.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.source {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+  left: 15px;
+}
+
+.source p {
+  margin-left: 3px;
+  padding-bottom: 0.75px;
+  color: #a1a1a1;
+}
