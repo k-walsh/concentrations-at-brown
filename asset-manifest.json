@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/concentrations-at-brown/static/css/main.aea0c90b.css",
-    "main.js": "/concentrations-at-brown/static/js/main.e04f84c2.js",
+    "main.css": "/concentrations-at-brown/static/css/main.e30e1d00.css",
+    "main.js": "/concentrations-at-brown/static/js/main.3316d891.js",
     "index.html": "/concentrations-at-brown/index.html",
-    "main.aea0c90b.css.map": "/concentrations-at-brown/static/css/main.aea0c90b.css.map",
-    "main.e04f84c2.js.map": "/concentrations-at-brown/static/js/main.e04f84c2.js.map"
+    "main.e30e1d00.css.map": "/concentrations-at-brown/static/css/main.e30e1d00.css.map",
+    "main.3316d891.js.map": "/concentrations-at-brown/static/js/main.3316d891.js.map"
   },
   "entrypoints": [
-    "static/css/main.aea0c90b.css",
-    "static/js/main.e04f84c2.js"
+    "static/css/main.e30e1d00.css",
+    "static/js/main.3316d891.js"
   ]
 }
